@@ -24,18 +24,21 @@ header > img {
   z-index: -1;
 }
 
-.left-column-container {
+#left-column-container {
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: center;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color 0.3s linear;
 }
 
 .circle-container {
   height: 40vmin;
   width: 40vmin;
   border-radius: 50%;
+  z-index: -1;
 }
 
 .circle-container > img {
