@@ -1,9 +1,15 @@
 var header = document.getElementById("left-column-container");
+var title = document.getElementById("title");
 var links = document.getElementById("links");
 var projects = document.getElementById("projects");
 var contact = document.getElementById("contact");
-var elements = [links, projects, contact];
-var colors = ["red", "blue", "green"];
+var elements = [title, links, projects, contact];
+var colors = [
+  "rgba(42, 45, 52, 1)",
+  "rgba(0, 157, 220, 1)",
+  "rgba(242, 100, 48, 1)",
+  "rgba(0, 155, 114, 1)"
+];
 
 function setBackgroundTransition(element, color) {
   element.addEventListener("mouseenter", function(event) {
