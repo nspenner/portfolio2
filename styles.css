@@ -34,8 +34,8 @@ header > img {
 }
 
 .circle-container {
-  height: 40vmin;
-  width: 40vmin;
+  height: 55vmin;
+  width: 55vmin;
   border-radius: 50%;
   z-index: -1;
 }
