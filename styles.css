@@ -72,7 +72,7 @@ main {
   height: 100vh;
   padding: 15px 15px;
   box-sizing: border-box;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 h1 {
