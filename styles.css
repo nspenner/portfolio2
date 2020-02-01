@@ -118,7 +118,7 @@ section {
   margin: 0;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
   main {
     grid-template-columns: 1fr;
     padding: 0;
