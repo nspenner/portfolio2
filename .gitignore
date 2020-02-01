@@ -1,1 +1,5 @@
 .vscode
+
+.jekyll-cache
+
+_site
